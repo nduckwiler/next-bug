@@ -9,7 +9,7 @@ export class Terminal extends React.Component {
   render() {
     return <>
       <div>Hi from Terminal</div>
-      <RealTerminal/>
+      <RealTerminal ref={(ref) => console.log(ref)}/>
     </>
   }
 }
